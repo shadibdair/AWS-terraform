@@ -99,15 +99,15 @@ __*serves as the single point of contact for clients. The load balancer distribu
 
 ### Part III : ❓ 
 ## To improve the project :
-__*I would add the Route53 (DNS record) :*__
+__*I would added the Route53 (DNS record) :*__
 - Is a highly available and scalable cloud Domain Name System (DNS) web service
 - It is designed to give developers and businesses an extremely reliable and cost effective way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0
 
-__*I would add the Certifcate to the record (HTTPS) :*__
+__*I would added the Certifcate to the record (HTTPS) :*__
 - Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates are used to secure network communications and establish the identity of websites over the internet. Before issuing a certificate for your website, Amazon must validate that you control the domain name for your site.
 - After you configure your web server for SSL/TLS offload with AWS CloudHSM, add your web server instance to a security group that allows inbound HTTPS traffic. This allows clients, such as web browsers, to establish an HTTPS connection with your web server.
 
-__*I would add the AWS lambda :*__
+__*I would added the AWS lambda :*__
 > (It's bigger than the current project, BUT I've added because it's related to the web)
 
 - To know how fast your website is working, you can use the CloudFront service.
