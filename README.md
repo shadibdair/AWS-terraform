@@ -1,5 +1,6 @@
 # AWS-terraform 🌦 !
-Build Nginx docker image, Using services as CodeCommit ECR ECS LoadBalancer and Cloud9.
+*Build Nginx docker image, Using services as CodeCommit ECR ECS LoadBalancer and Cloud9.*
+
 ----
 
 ## The command I've used inside the Cloud9
@@ -94,6 +95,28 @@ __*serves as the single point of contact for clients. The load balancer distribu
 
 <img width="1101" alt="Screen Shot 2021-10-27 at 4 40 30" src="https://user-images.githubusercontent.com/43513994/138986082-128592d7-c8ef-46b6-8bef-d0bb39eccfb8.png">
 
+---
+
+### Part III : ❓ 
+## To improve the project :
+__*I would add the Route53 (DNS record) :*__
+- Is a highly available and scalable cloud Domain Name System (DNS) web service
+- It is designed to give developers and businesses an extremely reliable and cost effective way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0
+
+__*I would add the Certifcate to the record (HTTPS) :*__
+- Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates are used to secure network communications and establish the identity of websites over the internet. Before issuing a certificate for your website, Amazon must validate that you control the domain name for your site.
+- After you configure your web server for SSL/TLS offload with AWS CloudHSM, add your web server instance to a security group that allows inbound HTTPS traffic. This allows clients, such as web browsers, to establish an HTTPS connection with your web server.
+
+__*I would add the AWS lambda :*__
+> (It's bigger than the current project, BUT I've added because it's related to the web)
+
+- To know how fast your website is working, you can use the CloudFront service.
+- It speeds up the sharing of your dynamic and static web content such as .css, .html, and image files to your users. 
+- It securely delivers your images, videos, data, and applications to users and clients with high transfer speed and low latency, all within a developer-friendly environment.
+
+**Finally I would added service that give my more security and scalability.**📌
+
+---
 
 #### Thank you for your time 😄.
 __*-Shadi Badir 🕺.*__
