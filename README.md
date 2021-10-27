@@ -3,7 +3,7 @@ Build Nginx docker image, Using services as CodeCommit ECR ECS LoadBalancer and 
 ----
 
 ## The command I've used inside the Cloud9
-> Create new environment, Started run the image ...
+__*Create new environment, Started run the image ...*__
 > <img width="1344" alt="Screen Shot 2021-10-27 at 2 17 07" src="https://user-images.githubusercontent.com/43513994/138974482-9e85d121-44f0-4b29-bf29-aa7d4868169e.png">
 
 ## Login inside the Cloud9
@@ -62,7 +62,7 @@ $ docker push 00********00.dkr.ecr.eu-west-2.amazonaws.com/last-repo-euwest2:lat
 ```
 
 ### I've pushed the nginx image that built to ECR :
-> The result :
+__*The result :*__
 <img width="1400" alt="Screen Shot 2021-10-27 at 2 21 20" src="https://user-images.githubusercontent.com/43513994/138982066-007b3a91-c924-4b1c-8169-49ee93b07e25.png">
 
 
@@ -71,11 +71,11 @@ $ docker push 00********00.dkr.ecr.eu-west-2.amazonaws.com/last-repo-euwest2:lat
 
 
 ### Then I've created the task definition :
-> A task definition is required to run Docker containers in Amazon ECS.
+__*A task definition is required to run Docker containers in Amazon ECS.*__
 <img width="1412" alt="Screen Shot 2021-10-27 at 3 43 24" src="https://user-images.githubusercontent.com/43513994/138981712-19185afa-f189-4ec8-93d8-ff4325521934.png"> 
 
 ### Inside the cluster, Service, Task and Instance :
-> An Amazon ECS service allows you to run and maintain a specified number of instances of a task definition simultaneously in an Amazon ECS cluster.
+__*An Amazon ECS service allows you to run and maintain a specified number of instances of a task definition simultaneously in an Amazon ECS cluster.*__
 <img width="1169" alt="Screen Shot 2021-10-27 at 4 02 14" src="https://user-images.githubusercontent.com/43513994/138982720-36a19c5b-02a0-49cf-ab6f-6e13de36f21d.png">
 <img width="1169" alt="Screen Shot 2021-10-27 at 4 06 40" src="https://user-images.githubusercontent.com/43513994/138983129-d07578ee-f576-4155-a9ba-44b0f862da51.png">
 <img width="1144" alt="Screen Shot 2021-10-27 at 4 10 45" src="https://user-images.githubusercontent.com/43513994/138983333-5ac60a1b-70ca-4fb1-a4c7-757a32a642ec.png">
@@ -86,7 +86,7 @@ $ docker push 00********00.dkr.ecr.eu-west-2.amazonaws.com/last-repo-euwest2:lat
 <img width="1424" alt="Screen Shot 2021-10-27 at 3 14 22" src="https://user-images.githubusercontent.com/43513994/138979383-c966aa00-c104-497a-837c-deb1d55bc459.png">
 
 ### Why I've created the LoadBalancer service :
-> serves as the single point of contact for clients. The load balancer distributes incoming application traffic across multiple targets, such as EC2 instances, in multiple Availability Zones, This increases the availability of your application. You add one or more listeners to your load balancer.
+__*serves as the single point of contact for clients. The load balancer distributes incoming application traffic across multiple targets, such as EC2 instances, in multiple Availability Zones, This increases the availability of your application. You add one or more listeners to your load balancer.*__
 
 <img width="1322" alt="Screen Shot 2021-10-27 at 3 27 36" src="https://user-images.githubusercontent.com/43513994/138980511-4718a2da-de7c-4e09-a750-7c787c4ca2d6.png">
 
@@ -96,6 +96,6 @@ $ docker push 00********00.dkr.ecr.eu-west-2.amazonaws.com/last-repo-euwest2:lat
 
 
 #### Thank you for your time 😄.
--Shadi Badir 🕺.
+__*-Shadi Badir 🕺.*__
 
 
