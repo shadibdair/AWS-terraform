@@ -60,8 +60,12 @@ $ docker push 00********00.dkr.ecr.eu-west-2.amazonaws.com/last-repo-euwest2:lat
 
 ### I've pushed the nginx image that built to ECR :
 > The result :
-<img width="1400" alt="Screen Shot 2021-10-27 at 2 21 20" src="https://user-images.githubusercontent.com/43513994/138974949-82dcda11-6dd9-4289-8cb4- 
+<img width="1400" alt="Screen Shot 2021-10-27 at 2 21 20" src="https://user-images.githubusercontent.com/43513994/138982066-007b3a91-c924-4b1c-8169-49ee93b07e25.png">
 
+### Then I've created the task definition :
+> A task definition is required to run Docker containers in Amazon ECS.
+<img width="1412" alt="Screen Shot 2021-10-27 at 3 43 24" src="https://user-images.githubusercontent.com/43513994/138981712-19185afa-f189-4ec8-93d8-ff4325521934.png"> 
+                                                               
 ### The services in AWS :
 <img width="1400" alt="Screen Shot 2021-10-27 at 2 41 46" src="https://user-images.githubusercontent.com/43513994/138976979-dd678b35-04eb-4c4c-bbe1-695755849ae3.png">
 
