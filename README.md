@@ -114,7 +114,7 @@ __*I would added the AWS lambda :*__
 - It speeds up the sharing of your dynamic and static web content such as .css, .html, and image files to your users. 
 - It securely delivers your images, videos, data, and applications to users and clients with high transfer speed and low latency, all within a developer-friendly environment.
 
-**Finally I would added service that give my more security and scalability.** 📌
+**Finally I would added services that give my more security and scalability.** 📌
 
 ---
 
